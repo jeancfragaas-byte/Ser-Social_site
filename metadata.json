@@ -2,5 +2,5 @@
   "name": "Ser Social",
   "description": "Estratégia, disciplina e prática para conquistar sua aprovação em concursos de Serviço Social.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }
