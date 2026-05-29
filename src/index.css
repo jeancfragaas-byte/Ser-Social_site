@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-teal: #0f766e; /* Teal 700 */
+  --color-brand-teal-light: #0d9488; /* Teal 600 */
+  --color-brand-teal-dark: #0f172a; /* Slate 900 for modern deep contrast */
+  --color-brand-cream: #f8fafc; /* Slate 50 for the clean background */
+  --color-brand-cream-dark: #e2e8f0; /* Slate 200 for clean professional borders */
+  --color-brand-orange: #0d9488; /* Professional Teal 600 as the new elegant brand color */
+  --color-brand-gold: #f59e0b; /* Amber 500 for high-end success/warning indicators */
+  --color-brand-charcoal: #1e293b; /* Slate 800 for body copy */
+}
+
+@layer base {
+  body {
+    @apply bg-brand-cream text-brand-charcoal font-sans selection:bg-brand-gold/30 selection:text-brand-teal-dark;
+  }
+}
+
